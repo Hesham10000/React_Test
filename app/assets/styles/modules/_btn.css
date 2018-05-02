@@ -1,0 +1,48 @@
+.btn{
+  border: 0 ;
+  outline:0;
+  background: rgba($mainOrange,.8);
+  padding: 1.5rem 1rem ;
+  margin: 1rem 26% ;
+  margin-bottom: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  color: white ;
+  font-size: .8rem;
+  font-weight: 200;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+  &:hover{
+    cursor: pointer;
+    transform: scaleX(.9) scaleY(.9);
+    font-weight: 300;
+  }
+  @mixin atSmall{
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    margin: 1rem 5rem ;
+  }
+  @mixin atMedium{
+    padding: 1.5rem 1.5rem;
+    margin: 1rem 5rem ;
+
+  }
+  &__centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__small {
+    padding: .5rem 1rem ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 8.5rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+  &__100{
+    width: 100%;
+  }
+}

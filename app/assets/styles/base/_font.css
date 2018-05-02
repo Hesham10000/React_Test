@@ -1,0 +1,16 @@
+.fa{
+  font-size: 1.2rem;
+  padding-top: 5px;
+  padding-right: .5rem;
+  max-width: 20%;
+  float: left;
+  height: 55px;
+}
+.fa-clock-o{
+
+}
+.fa-user-circle{
+font-size: 1.6rem;
+padding-top: 0 !important ;
+margin-right: 5px;
+}

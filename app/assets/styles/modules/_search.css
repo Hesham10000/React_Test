@@ -1,0 +1,43 @@
+.search{
+  &__provider{
+    padding: 0 2px !important;
+    margin: 0 !important;
+    transition: all 0.3s ease-out ;
+    height: 50px;
+    width: 40% !important;
+    font-size: 1.2rem;
+    color: $secondryBlue;
+    text-align: center;
+    letter-spacing: 2px;
+    &:focus{
+      border:2px solid $secondryBlue;
+    }
+    &:blur{
+      border: 0px solid grey;
+    }
+  }
+  &__date{
+    padding: 0 !important;
+    margin: 0 !important;
+    transition: all 0.3s ease-out ;
+    height: 50px;
+    width: 40% !important;
+    font-size: 1.2rem;
+    color: $secondryBlue;
+    text-align: center;
+    letter-spacing: 2px;
+    &:focus{
+      border:2px solid $secondryBlue;
+    }
+    &:blur{
+      border: 0px solid grey;
+    }
+  }
+  &__submit{
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 50px;
+    width: 20% !important;
+    background: $secondryBlue !important;
+  }
+}

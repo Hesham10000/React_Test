@@ -1,0 +1,81 @@
+.row{
+  @mixin clearfix;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__gutters{
+    padding-right:  -10px;
+  }
+  &__gutters > div,p,img {
+    padding-right:  10px;
+  }
+  &__t-margin{
+    margin-top: 15px !important;
+    @mixin atLarge{
+      margin-top: 2.7rem !important;
+    }
+  }
+  &__b-margin{
+      margin-bottom: 1rem !important;
+      @mixin atLarge{
+        margin-bottom: .8rem !important;
+      }
+  }
+  &__auto{
+    flex: 100%;
+    max-width: 100%;
+    margin: 0;
+    @mixin atLarge{
+      max-width: 160px;
+      flex: 160px;
+    }
+  }
+
+    &__20{
+      flex: 100%;
+      max-width: 100%;
+      margin: 0;
+      @mixin atLarge{
+        max-width: 20%;
+        flex: 20%;
+      }
+      &__t-margin{
+        margin-top: 1.5rem;
+        @mixin atLarge{
+          margin-top: 0;
+        }
+      }
+    }
+    &__50{
+      flex: 100%;
+      max-width: 100%;
+      margin-bottom: .2rem;
+      text-align: center;
+      @mixin atMedium{
+        max-width: 50%;
+        flex: 50%;
+        margin-bottom: 0px;
+        text-align:left;
+      }
+    }
+    &__100{
+      flex: 100%;
+      max-width: 100%;
+      margin: 0;
+    }
+    &__40{
+      flex: 100%;
+      max-width: 100%;
+      margin: 0;
+      @mixin atSmall{
+        flex: 50%;
+        max-width: 50%;
+      }
+      @mixin atLarge{
+        flex: 40%;
+        max-width: 40%;
+      }
+    }
+}/*End of row*/

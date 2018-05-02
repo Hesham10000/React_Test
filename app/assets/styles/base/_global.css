@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  height: 100%;
+}
+html{
+  height: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+a {
+  color: $mainOrange;
+  text-decoration: none;
+}
+p{
+  margin: 0;
+}
+.more{
+  color: $mainOrange;
+  &:hover{
+    cursor:pointer;
+  }
+}
+.default{
+color: white !important;
+}
+.time{
+  white-space: nowrap;
+  font-size: 14px;
+}
+.font{
+  font-size: 16px;
+  text-shadow: 2px 2px 5px #ededed;
+}
+.border{
+  border-top:10px solid #eee;
+  border-bottom: 3.5px solid $secondryBlue;
+}
+.not-found{
+  width: 100%;
+  text-align: center;
+  color: $secondryBlue;
+  margin: 25px 2px;
+  padding: 25px 2px;
+  border: 1.5px solid grey;
+}
